@@ -1,0 +1,1856 @@
+{
+  "tests": [
+    {
+      "id": 1,
+      "title": "JavaScript",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png"
+    },
+    {
+      "id": 2,
+      "title": "CSS",
+      "image": "https://play-lh.googleusercontent.com/ajbmMCoaThQcD4_z-1-6H79M0ItJ1Vz2jW_5yRB_eb1d_Fdzmdci0SPHFfujQj23n-Q"
+    },
+    {
+      "id": 3,
+      "title": "HTML",
+      "image": "https://itproger.com/img/courses/1476977240.jpg"
+    },
+    {
+      "id": 4,
+      "title": "React",
+      "image": "https://www.patterns.dev/img/reactjs/react-logo@3x.svg"
+    }
+  ],
+  "questions": [
+    {
+      "category": "JavaScript",
+      "question": "Что такое JavaScript?",
+      "options": [
+        {
+          "text": "Язык программирования для создания статических страниц",
+          "correct": false
+        },
+        {
+          "text": "Язык программирования для создания динамических и интерактивных веб-сайтов",
+          "correct": true
+        },
+        {
+          "text": "Язык разметки для структурирования веб-страниц",
+          "correct": false
+        },
+        {
+          "text": "Язык программирования для создания баз данных",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Какое ключевое слово используется для объявления переменной в JavaScript?",
+      "options": [
+        {
+          "text": "variable",
+          "correct": false
+        },
+        {
+          "text": "let",
+          "correct": true
+        },
+        {
+          "text": "var",
+          "correct": false
+        },
+        {
+          "text": "const",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Какой символ используется для однострочных комментариев в JavaScript?",
+      "options": [
+        {
+          "text": "//",
+          "correct": true
+        },
+        {
+          "text": "/* */",
+          "correct": false
+        },
+        {
+          "text": "<!-- -->",
+          "correct": false
+        },
+        {
+          "text": "#",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Какой метод используется для добавления нового элемента в конец массива?",
+      "options": [
+        {
+          "text": "push()",
+          "correct": true
+        },
+        {
+          "text": "pop()",
+          "correct": false
+        },
+        {
+          "text": "shift()",
+          "correct": false
+        },
+        {
+          "text": "unshift()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Что такое анонимная функция в JavaScript?",
+      "options": [
+        {
+          "text": "Функция без имени",
+          "correct": true
+        },
+        {
+          "text": "Функция, которая вызывается автоматически",
+          "correct": false
+        },
+        {
+          "text": "Функция, которая работает только с анонимными объектами",
+          "correct": false
+        },
+        {
+          "text": "Функция, которая не имеет параметров",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Какая функция используется для преобразования строки в целое число?",
+      "options": [
+        {
+          "text": "parseInt()",
+          "correct": true
+        },
+        {
+          "text": "parseFloat()",
+          "correct": false
+        },
+        {
+          "text": "stringify()",
+          "correct": false
+        },
+        {
+          "text": "convertToInt()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Что такое замыкание (closure) в JavaScript?",
+      "options": [
+        {
+          "text": "Процесс скрытия данных внутри объекта",
+          "correct": false
+        },
+        {
+          "text": "Способ объединения нескольких функций в одну",
+          "correct": false
+        },
+        {
+          "text": "Способ сохранения значения переменной после завершения функции",
+          "correct": true
+        },
+        {
+          "text": "Метод подключения внешних библиотек к проекту",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Какой оператор используется для строгого равенства (по значению и типу) в JavaScript?",
+      "options": [
+        {
+          "text": "==",
+          "correct": false
+        },
+        {
+          "text": "===",
+          "correct": true
+        },
+        {
+          "text": "=",
+          "correct": false
+        },
+        {
+          "text": "!==",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Что такое асинхронность в JavaScript?",
+      "options": [
+        {
+          "text": "Способ определения приоритета выполнения операций",
+          "correct": false
+        },
+        {
+          "text": "Способ параллельного выполнения кода на разных ядрах процессора",
+          "correct": false
+        },
+        {
+          "text": "Механизм, позволяющий выполнять операции без блокировки основного потока",
+          "correct": true
+        },
+        {
+          "text": "Способ передачи данных между разными вкладками браузера",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Какой метод используется для удаления элемента из массива по индексу?",
+      "options": [
+        {
+          "text": "remove()",
+          "correct": false
+        },
+        {
+          "text": "splice()",
+          "correct": true
+        },
+        {
+          "text": "delete()",
+          "correct": false
+        },
+        {
+          "text": "shift()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Что такое JSON?",
+      "options": [
+        {
+          "text": "Язык разметки для структурирования веб-страниц",
+          "correct": false
+        },
+        {
+          "text": "Библиотека для создания анимаций на веб-странице",
+          "correct": false
+        },
+        {
+          "text": "Формат данных, основанный на тексте, используемый для обмена данными",
+          "correct": true
+        },
+        {
+          "text": "Язык программирования для создания серверной части веб-приложений",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Какой метод используется для преобразования JavaScript объекта в строку JSON?",
+      "options": [
+        {
+          "text": "stringify()",
+          "correct": true
+        },
+        {
+          "text": "parse()",
+          "correct": false
+        },
+        {
+          "text": "convertToString()",
+          "correct": false
+        },
+        {
+          "text": "toJSON()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Какой символ используется для обозначения начала и конца строки в регулярных выражениях?",
+      "options": [
+        {
+          "text": "^$",
+          "correct": true
+        },
+        {
+          "text": "//",
+          "correct": false
+        },
+        {
+          "text": "<>",
+          "correct": false
+        },
+        {
+          "text": "{}",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Что такое промисы (promises) в JavaScript?",
+      "options": [
+        {
+          "text": "Методы для работы с математическими операциями",
+          "correct": false
+        },
+        {
+          "text": "Способ организации асинхронного кода",
+          "correct": true
+        },
+        {
+          "text": "Способ создания анимаций на веб-странице",
+          "correct": false
+        },
+        {
+          "text": "Методы для работы с базами данных",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Какой оператор используется для объединения строк в JavaScript?",
+      "options": [
+        {
+          "text": "+",
+          "correct": true
+        },
+        {
+          "text": "&",
+          "correct": false
+        },
+        {
+          "text": "||",
+          "correct": false
+        },
+        {
+          "text": "concat()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Что такое стрелочные функции (arrow functions) в JavaScript?",
+      "options": [
+        {
+          "text": "Функции для работы с графикой и анимациями",
+          "correct": false
+        },
+        {
+          "text": "Функции, которые всегда возвращают true",
+          "correct": false
+        },
+        {
+          "text": "Способ создания анонимных функций",
+          "correct": false
+        },
+        {
+          "text": "Короткий синтаксис для создания функций",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Какой метод используется для перебора элементов массива?",
+      "options": [
+        {
+          "text": "forEach()",
+          "correct": true
+        },
+        {
+          "text": "loop()",
+          "correct": false
+        },
+        {
+          "text": "iterate()",
+          "correct": false
+        },
+        {
+          "text": "check()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Что такое оператор spread в JavaScript?",
+      "options": [
+        {
+          "text": "Оператор для объединения двух строк",
+          "correct": false
+        },
+        {
+          "text": "Оператор для создания копии объекта или массива",
+          "correct": true
+        },
+        {
+          "text": "Оператор для выполнения асинхронных операций",
+          "correct": false
+        },
+        {
+          "text": "Оператор для выполнения математических операций",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Какой метод используется для округления числа до ближайшего целого?",
+      "options": [
+        {
+          "text": "round()",
+          "correct": true
+        },
+        {
+          "text": "ceil()",
+          "correct": false
+        },
+        {
+          "text": "floor()",
+          "correct": false
+        },
+        {
+          "text": "truncate()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Что такое метод map() в JavaScript?",
+      "options": [
+        {
+          "text": "Метод для добавления новых элементов в массив",
+          "correct": false
+        },
+        {
+          "text": "Метод для преобразования элементов массива",
+          "correct": true
+        },
+        {
+          "text": "Метод для удаления элементов из массива",
+          "correct": false
+        },
+        {
+          "text": "Метод для объединения нескольких массивов",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "question": "Какой метод используется для преобразования массивоподобного объекта в настоящий массив?",
+      "options": [
+        {
+          "text": "convertToArray()",
+          "correct": false
+        },
+        {
+          "text": "toArray()",
+          "correct": false
+        },
+        {
+          "text": "slice()",
+          "correct": false
+        },
+        {
+          "text": "Array.from()",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какое расширение у файлов веб-страниц в HTML?",
+      "options": [
+        {
+          "text": ".web",
+          "correct": false
+        },
+        {
+          "text": ".html",
+          "correct": true
+        },
+        {
+          "text": ".site",
+          "correct": false
+        },
+        {
+          "text": ".page",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой тег используется для создания ссылки?",
+      "options": [
+        {
+          "text": "<link>",
+          "correct": false
+        },
+        {
+          "text": "<a>",
+          "correct": true
+        },
+        {
+          "text": "<href>",
+          "correct": false
+        },
+        {
+          "text": "<url>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой элемент используется для создания заголовка первого уровня?",
+      "options": [
+        {
+          "text": "<heading>",
+          "correct": false
+        },
+        {
+          "text": "<h1>",
+          "correct": true
+        },
+        {
+          "text": "<header>",
+          "correct": false
+        },
+        {
+          "text": "<title>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой тег используется для создания списка с нумерованными пунктами?",
+      "options": [
+        {
+          "text": "<ol>",
+          "correct": true
+        },
+        {
+          "text": "<ul>",
+          "correct": false
+        },
+        {
+          "text": "<dl>",
+          "correct": false
+        },
+        {
+          "text": "<list>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой тег используется для вставки изображения?",
+      "options": [
+        {
+          "text": "<img>",
+          "correct": true
+        },
+        {
+          "text": "<picture>",
+          "correct": false
+        },
+        {
+          "text": "<image>",
+          "correct": false
+        },
+        {
+          "text": "<photo>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой тег используется для создания таблицы?",
+      "options": [
+        {
+          "text": "<table>",
+          "correct": true
+        },
+        {
+          "text": "<tab>",
+          "correct": false
+        },
+        {
+          "text": "<tb>",
+          "correct": false
+        },
+        {
+          "text": "<tr>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой элемент используется для создания абзаца?",
+      "options": [
+        {
+          "text": "<para>",
+          "correct": false
+        },
+        {
+          "text": "<a>",
+          "correct": false
+        },
+        {
+          "text": "<p>",
+          "correct": true
+        },
+        {
+          "text": "<line>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой тег используется для создания формы?",
+      "options": [
+        {
+          "text": "<form>",
+          "correct": true
+        },
+        {
+          "text": "<input>",
+          "correct": false
+        },
+        {
+          "text": "<field>",
+          "correct": false
+        },
+        {
+          "text": "<document>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой элемент используется для создания кнопки?",
+      "options": [
+        {
+          "text": "<button>",
+          "correct": true
+        },
+        {
+          "text": "<submit>",
+          "correct": false
+        },
+        {
+          "text": "<input>",
+          "correct": false
+        },
+        {
+          "text": "<click>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой атрибут используется для задания заголовка изображения (alternative text) для доступности?",
+      "options": [
+        {
+          "text": "alt",
+          "correct": true
+        },
+        {
+          "text": "title",
+          "correct": false
+        },
+        {
+          "text": "src",
+          "correct": false
+        },
+        {
+          "text": "link",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой тег используется для создания полужирного текста?",
+      "options": [
+        {
+          "text": "<bold>",
+          "correct": false
+        },
+        {
+          "text": "<strong>",
+          "correct": true
+        },
+        {
+          "text": "<b>",
+          "correct": false
+        },
+        {
+          "text": "<big>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой тег используется для создания ненумерованного списка?",
+      "options": [
+        {
+          "text": "<list>",
+          "correct": false
+        },
+        {
+          "text": "<ul>",
+          "correct": true
+        },
+        {
+          "text": "<ol>",
+          "correct": false
+        },
+        {
+          "text": "<nl>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой тег используется для создания подчеркнутого текста?",
+      "options": [
+        {
+          "text": "<u>",
+          "correct": true
+        },
+        {
+          "text": "<underline>",
+          "correct": false
+        },
+        {
+          "text": "<s>",
+          "correct": false
+        },
+        {
+          "text": "<subline>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой элемент используется для создания списка определений?",
+      "options": [
+        {
+          "text": "<dl>",
+          "correct": true
+        },
+        {
+          "text": "<ol>",
+          "correct": false
+        },
+        {
+          "text": "<ul>",
+          "correct": false
+        },
+        {
+          "text": "<list>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой тег используется для создания заголовка второго уровня?",
+      "options": [
+        {
+          "text": "<h2>",
+          "correct": true
+        },
+        {
+          "text": "<heading>",
+          "correct": false
+        },
+        {
+          "text": "<header>",
+          "correct": false
+        },
+        {
+          "text": "<h1>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой атрибут используется для задания адреса ссылки?",
+      "options": [
+        {
+          "text": "link",
+          "correct": false
+        },
+        {
+          "text": "url",
+          "correct": false
+        },
+        {
+          "text": "href",
+          "correct": true
+        },
+        {
+          "text": "src",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой элемент используется для создания строчного (встроенного) элемента кода?",
+      "options": [
+        {
+          "text": "<inline>",
+          "correct": false
+        },
+        {
+          "text": "<code>",
+          "correct": true
+        },
+        {
+          "text": "<script>",
+          "correct": false
+        },
+        {
+          "text": "<input>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой тег используется для создания ячейки в таблице?",
+      "options": [
+        {
+          "text": "<cell>",
+          "correct": false
+        },
+        {
+          "text": "<td>",
+          "correct": true
+        },
+        {
+          "text": "<tr>",
+          "correct": false
+        },
+        {
+          "text": "<th>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой тег используется для вставки видео?",
+      "options": [
+        {
+          "text": "<movie>",
+          "correct": false
+        },
+        {
+          "text": "<video>",
+          "correct": true
+        },
+        {
+          "text": "<media>",
+          "correct": false
+        },
+        {
+          "text": "<film>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "HTML",
+      "question": "Какой элемент используется для создания встроенного фрейма (вложенной страницы)?",
+      "options": [
+        {
+          "text": "<iframe>",
+          "correct": true
+        },
+        {
+          "text": "<frame>",
+          "correct": false
+        },
+        {
+          "text": "<embed>",
+          "correct": false
+        },
+        {
+          "text": "<inlineframe>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Что такое React?",
+      "options": [
+        {
+          "text": "JavaScript-библиотека для работы с графикой",
+          "correct": false
+        },
+        {
+          "text": "JavaScript-фреймворк для создания серверной части приложений",
+          "correct": false
+        },
+        {
+          "text": "JavaScript-библиотека для создания пользовательских интерфейсов",
+          "correct": true
+        },
+        {
+          "text": "JavaScript-платформа для разработки мобильных приложений",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Какой метод используется для изменения состояния компонента в React?",
+      "options": [
+        {
+          "text": "changeState()",
+          "correct": false
+        },
+        {
+          "text": "this.setState()",
+          "correct": true
+        },
+        {
+          "text": "updateState()",
+          "correct": false
+        },
+        {
+          "text": "modifyState()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Какой компонент React используется для вывода текста?",
+      "options": [
+        {
+          "text": "<text>",
+          "correct": false
+        },
+        {
+          "text": "<p>",
+          "correct": false
+        },
+        {
+          "text": "<span>",
+          "correct": false
+        },
+        {
+          "text": "<div>",
+          "correct": false
+        },
+        {
+          "text": "<Text>",
+          "correct": false
+        },
+        {
+          "text": "<TextComponent>",
+          "correct": false
+        },
+        {
+          "text": "<TextOutput>",
+          "correct": false
+        },
+        {
+          "text": "<TextDisplay>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Что такое JSX в React?",
+      "options": [
+        {
+          "text": "Язык разметки для описания структуры базы данных",
+          "correct": false
+        },
+        {
+          "text": "Язык для создания динамических веб-страниц",
+          "correct": false
+        },
+        {
+          "text": "Синтаксическое расширение JavaScript для описания структуры пользовательских интерфейсов",
+          "correct": true
+        },
+        {
+          "text": "Язык для создания мобильных приложений",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Какой метод React-компонента вызывается при его инициализации?",
+      "options": [
+        {
+          "text": "componentWillMount()",
+          "correct": false
+        },
+        {
+          "text": "render()",
+          "correct": false
+        },
+        {
+          "text": "componentDidMount()",
+          "correct": true
+        },
+        {
+          "text": "componentInitialized()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Что такое props в React?",
+      "options": [
+        {
+          "text": "Специальный метод для изменения состояния компонента",
+          "correct": false
+        },
+        {
+          "text": "Встроенный объект, содержащий информацию о текущем состоянии компонента",
+          "correct": false
+        },
+        {
+          "text": "Специальный атрибут, позволяющий передавать данные в компонент",
+          "correct": true
+        },
+        {
+          "text": "Функция для обработки событий в компоненте",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Какой метод React-компонента вызывается при обновлении его состояния или props?",
+      "options": [
+        {
+          "text": "componentUpdated()",
+          "correct": false
+        },
+        {
+          "text": "componentDidUpdate()",
+          "correct": true
+        },
+        {
+          "text": "componentUpdatedState()",
+          "correct": false
+        },
+        {
+          "text": "componentStateUpdated()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Что такое state в React?",
+      "options": [
+        {
+          "text": "Атрибут, используемый для задания внешнего вида компонента",
+          "correct": false
+        },
+        {
+          "text": "Объект, содержащий информацию о текущем состоянии компонента",
+          "correct": true
+        },
+        {
+          "text": "Специальный метод для изменения состояния компонента",
+          "correct": false
+        },
+        {
+          "text": "Функция для обработки событий в компоненте",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Какой метод React-компонента вызывается перед удалением компонента из DOM?",
+      "options": [
+        {
+          "text": "componentWillUnmount()",
+          "correct": true
+        },
+        {
+          "text": "componentRemoved()",
+          "correct": false
+        },
+        {
+          "text": "componentDeleted()",
+          "correct": false
+        },
+        {
+          "text": "componentUnmounted()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Что такое Virtual DOM в React?",
+      "options": [
+        {
+          "text": "Виртуальная среда разработки для React-приложений",
+          "correct": false
+        },
+        {
+          "text": "Метод для виртуальной отладки компонентов",
+          "correct": false
+        },
+        {
+          "text": "Техника для создания отдельного экземпляра DOM для каждого компонента",
+          "correct": false
+        },
+        {
+          "text": "Виртуальное представление реального DOM, используемое для оптимизации обновлений",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Какой метод используется для обработки событий в React?",
+      "options": [
+        {
+          "text": "handleEvent()",
+          "correct": false
+        },
+        {
+          "text": "eventHandler()",
+          "correct": false
+        },
+        {
+          "text": "this.event()",
+          "correct": false
+        },
+        {
+          "text": "onClick()",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Какой метод используется для условного рендеринга компонента в React?",
+      "options": [
+        {
+          "text": "renderConditionally()",
+          "correct": false
+        },
+        {
+          "text": "conditionalRender()",
+          "correct": false
+        },
+        {
+          "text": "renderIf()",
+          "correct": false
+        },
+        {
+          "text": "render()",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Какой метод используется для создания компонентов в React?",
+      "options": [
+        {
+          "text": "createComponent()",
+          "correct": false
+        },
+        {
+          "text": "component()",
+          "correct": false
+        },
+        {
+          "text": "makeComponent()",
+          "correct": false
+        },
+        {
+          "text": "class Component extends React.Component {}",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Какой хук используется для добавления состояния в функциональные компоненты в React?",
+      "options": [
+        {
+          "text": "useState()",
+          "correct": true
+        },
+        {
+          "text": "useEffect()",
+          "correct": false
+        },
+        {
+          "text": "useStateful()",
+          "correct": false
+        },
+        {
+          "text": "useStateComponent()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Что такое контекст (Context) в React?",
+      "options": [
+        {
+          "text": "Механизм для работы с анимацией в компонентах",
+          "correct": false
+        },
+        {
+          "text": "Объект для хранения глобального состояния компонента",
+          "correct": true
+        },
+        {
+          "text": "Механизм для работы с запросами на сервер в компонентах",
+          "correct": false
+        },
+        {
+          "text": "Функция для обработки событий в компоненте",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Что такое пропсы (props) в React?",
+      "options": [
+        {
+          "text": "Специальный метод для изменения состояния компонента",
+          "correct": false
+        },
+        {
+          "text": "Объект, содержащий информацию о текущем состоянии компонента",
+          "correct": false
+        },
+        {
+          "text": "Специальный атрибут, позволяющий передавать данные в компонент",
+          "correct": true
+        },
+        {
+          "text": "Функция для обработки событий в компоненте",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Что такое React Router?",
+      "options": [
+        {
+          "text": "Библиотека для работы с REST API в React-приложениях",
+          "correct": false
+        },
+        {
+          "text": "Библиотека для создания анимаций в React-приложениях",
+          "correct": false
+        },
+        {
+          "text": "Библиотека для работы с маршрутизацией в React-приложениях",
+          "correct": true
+        },
+        {
+          "text": "Библиотека для создания графических элементов в React-приложениях",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Что такое хуки (Hooks) в React?",
+      "options": [
+        {
+          "text": "Специальные методы для создания анимаций в компонентах",
+          "correct": false
+        },
+        {
+          "text": "Методы для обработки событий в компонентах",
+          "correct": false
+        },
+        {
+          "text": "Функции, позволяющие использовать состояние и другие возможности React в функциональных компонентах",
+          "correct": true
+        },
+        {
+          "text": "Методы для работы с маршрутизацией в компонентах",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "React",
+      "question": "Какой метод используется для создания списка элементов в React?",
+      "options": [
+        {
+          "text": "createList()",
+          "correct": false
+        },
+        {
+          "text": "list()",
+          "correct": false
+        },
+        {
+          "text": "makeList()",
+          "correct": false
+        },
+        {
+          "text": "map()",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Что означает CSS?",
+      "options": [
+        {
+          "text": "Computer System Services",
+          "correct": false
+        },
+        {
+          "text": "Cascading Style Sheets",
+          "correct": true
+        },
+        {
+          "text": "Coding Style System",
+          "correct": false
+        },
+        {
+          "text": "Creative Style Solutions",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какой способ задания стилей имеет наивысший приоритет?",
+      "options": [
+        {
+          "text": "Внешний стиль (external)",
+          "correct": true
+        },
+        {
+          "text": "Встроенный стиль (embedded)",
+          "correct": false
+        },
+        {
+          "text": "Внутренний стиль (inline)",
+          "correct": false
+        },
+        {
+          "text": "Локальный стиль (local)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какой элемент используется для задания стилей внутри HTML-документа?",
+      "options": [
+        {
+          "text": "<style>",
+          "correct": true
+        },
+        {
+          "text": "<css>",
+          "correct": false
+        },
+        {
+          "text": "<design>",
+          "correct": false
+        },
+        {
+          "text": "<layout>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какой атрибут используется для задания внутренних стилей?",
+      "options": [
+        {
+          "text": "style",
+          "correct": true
+        },
+        {
+          "text": "class",
+          "correct": false
+        },
+        {
+          "text": "id",
+          "correct": false
+        },
+        {
+          "text": "tag",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какой селектор выберет все элементы с классом example?",
+      "options": [
+        {
+          "text": "#example",
+          "correct": false
+        },
+        {
+          "text": ".example",
+          "correct": true
+        },
+        {
+          "text": "element.example",
+          "correct": false
+        },
+        {
+          "text": "example",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какой свойство используется для задания цвета текста?",
+      "options": [
+        {
+          "text": "font-color",
+          "correct": false
+        },
+        {
+          "text": "text-color",
+          "correct": false
+        },
+        {
+          "text": "color",
+          "correct": true
+        },
+        {
+          "text": "text-style",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какое свойство используется для задания шрифта?",
+      "options": [
+        {
+          "text": "font-style",
+          "correct": false
+        },
+        {
+          "text": "font-family",
+          "correct": true
+        },
+        {
+          "text": "font-type",
+          "correct": false
+        },
+        {
+          "text": "font-size",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какое свойство используется для задания размера текста?",
+      "options": [
+        {
+          "text": "font-size",
+          "correct": true
+        },
+        {
+          "text": "text-size",
+          "correct": false
+        },
+        {
+          "text": "size",
+          "correct": false
+        },
+        {
+          "text": "font-type",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какое свойство используется для задания отступов внутри элемента?",
+      "options": [
+        {
+          "text": "spacing",
+          "correct": false
+        },
+        {
+          "text": "margin",
+          "correct": false
+        },
+        {
+          "text": "padding",
+          "correct": true
+        },
+        {
+          "text": "indent",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какое свойство используется для задания выравнивания содержимого внутри элемента?",
+      "options": [
+        {
+          "text": "vertical-align",
+          "correct": true
+        },
+        {
+          "text": "align",
+          "correct": false
+        },
+        {
+          "text": "content-align",
+          "correct": false
+        },
+        {
+          "text": "alignment",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какое свойство используется для задания фона элемента?",
+      "options": [
+        {
+          "text": "background",
+          "correct": true
+        },
+        {
+          "text": "background-color",
+          "correct": false
+        },
+        {
+          "text": "bg-color",
+          "correct": false
+        },
+        {
+          "text": "background-image",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какой селектор выберет все ссылки внутри элемента с классом container?",
+      "options": [
+        {
+          "text": "a container",
+          "correct": false
+        },
+        {
+          "text": ".a.container",
+          "correct": false
+        },
+        {
+          "text": ".container a",
+          "correct": true
+        },
+        {
+          "text": "#container a",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какое свойство используется для создания рамки вокруг элемента?",
+      "options": [
+        {
+          "text": "border-style",
+          "correct": false
+        },
+        {
+          "text": "border",
+          "correct": true
+        },
+        {
+          "text": "frame",
+          "correct": false
+        },
+        {
+          "text": "border-width",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какое свойство используется для изменения формы курсора при наведении?",
+      "options": [
+        {
+          "text": "cursor",
+          "correct": true
+        },
+        {
+          "text": "pointer",
+          "correct": false
+        },
+        {
+          "text": "mouse-cursor",
+          "correct": false
+        },
+        {
+          "text": "hover",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какое свойство используется для задания внешних отступов элемента?",
+      "options": [
+        {
+          "text": "padding",
+          "correct": false
+        },
+        {
+          "text": "spacing",
+          "correct": false
+        },
+        {
+          "text": "margin",
+          "correct": true
+        },
+        {
+          "text": "indent",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какой селектор выберет элемент с id header?",
+      "options": [
+        {
+          "text": "#header",
+          "correct": true
+        },
+        {
+          "text": ".header",
+          "correct": false
+        },
+        {
+          "text": "header",
+          "correct": false
+        },
+        {
+          "text": "element#header",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какое свойство используется для задания высоты элемента?",
+      "options": [
+        {
+          "text": "height",
+          "correct": true
+        },
+        {
+          "text": "size",
+          "correct": false
+        },
+        {
+          "text": "element-height",
+          "correct": false
+        },
+        {
+          "text": "high",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какое свойство используется для создания анимации?",
+      "options": [
+        {
+          "text": "animate",
+          "correct": false
+        },
+        {
+          "text": "animation",
+          "correct": true
+        },
+        {
+          "text": "transition",
+          "correct": false
+        },
+        {
+          "text": "transform",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какой селектор выберет все элементы заголовков (h1 - h6)?",
+      "options": [
+        {
+          "text": "h1, h2, h3, h4, h5, h6",
+          "correct": true
+        },
+        {
+          "text": "header",
+          "correct": false
+        },
+        {
+          "text": ".header",
+          "correct": false
+        },
+        {
+          "text": "h1-h6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "category": "CSS",
+      "question": "Какое свойство используется для изменения прозрачности элемента?",
+      "options": [
+        {
+          "text": "transparency",
+          "correct": false
+        },
+        {
+          "text": "opacity",
+          "correct": true
+        },
+        {
+          "text": "transparent",
+          "correct": false
+        },
+        {
+          "text": "visible",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "answers": [
+    {
+      "name": "MAKSAT",
+      "Что такое метод map() в JavaScript?": "{\"text\":\"Метод для добавления новых элементов в массив\",\"correct\":false}",
+      "Что такое замыкание (closure) в JavaScript?": "{\"text\":\"Метод подключения внешних библиотек к проекту\",\"correct\":false}",
+      "Какой метод используется для округления числа до ближайшего целого?": "{\"text\":\"floor()\",\"correct\":false}",
+      "Что такое анонимная функция в JavaScript?": "{\"text\":\"Функция, которая вызывается автоматически\",\"correct\":false}",
+      "Какой символ используется для однострочных комментариев в JavaScript?": "{\"text\":\"//\",\"correct\":true}",
+      "Какой символ используется для обозначения начала и конца строки в регулярных выражениях?": "{\"text\":\"^$\",\"correct\":true}",
+      "Какой метод используется для добавления нового элемента в конец массива?": "{\"text\":\"push()\",\"correct\":true}",
+      "Какой оператор используется для объединения строк в JavaScript?": "{\"text\":\"+\",\"correct\":true}",
+      "Какой метод используется для удаления элемента из массива по индексу?": "{\"text\":\"splice()\",\"correct\":true}",
+      "Что такое стрелочные функции (arrow functions) в JavaScript?": "{\"text\":\"Функции, которые всегда возвращают true\",\"correct\":false}",
+      "Какое ключевое слово используется для объявления переменной в JavaScript?": "{\"text\":\"let\",\"correct\":true}",
+      "Что такое JSON?": "{\"text\":\"Библиотека для создания анимаций на веб-странице\",\"correct\":false}",
+      "Какой оператор используется для строгого равенства (по значению и типу) в JavaScript?": "{\"text\":\"===\",\"correct\":true}",
+      "Что такое промисы (promises) в JavaScript?": "{\"text\":\"Способ организации асинхронного кода\",\"correct\":true}",
+      "Что такое оператор spread в JavaScript?": "{\"text\":\"Оператор для объединения двух строк\",\"correct\":false}",
+      "Что такое JavaScript?": "{\"text\":\"Язык разметки для структурирования веб-страниц\",\"correct\":false}",
+      "Какая функция используется для преобразования строки в целое число?": "{\"text\":\"stringify()\",\"correct\":false}",
+      "Что такое асинхронность в JavaScript?": "{\"text\":\"Механизм, позволяющий выполнять операции без блокировки основного потока\",\"correct\":true}",
+      "Какой метод используется для перебора элементов массива?": "{\"text\":\"check()\",\"correct\":false}",
+      "Какой метод используется для преобразования массивоподобного объекта в настоящий массив?": "{\"text\":\"Array.from()\",\"correct\":true}",
+      "Какой метод используется для преобразования JavaScript объекта в строку JSON?": "{\"text\":\"stringify()\",\"correct\":true}",
+      "point": 11,
+      "category": "JavaScript",
+      "id": 7
+    },
+    {
+      "name": "Beknur",
+      "Что такое React Router?": "{\"text\":\"Библиотека для работы с маршрутизацией в React-приложениях\",\"correct\":true}",
+      "Что такое контекст (Context) в React?": "{\"text\":\"Объект для хранения глобального состояния компонента\",\"correct\":true}",
+      "Какой метод используется для изменения состояния компонента в React?": "{\"text\":\"this.setState()\",\"correct\":true}",
+      "Какой метод используется для создания компонентов в React?": "{\"text\":\"class Component extends React.Component {}\",\"correct\":true}",
+      "Какой метод React-компонента вызывается при его инициализации?": "{\"text\":\"render()\",\"correct\":false}",
+      "Какой метод используется для условного рендеринга компонента в React?": "{\"text\":\"render()\",\"correct\":true}",
+      "Что такое props в React?": "{\"text\":\"Специальный атрибут, позволяющий передавать данные в компонент\",\"correct\":true}",
+      "Какой метод React-компонента вызывается перед удалением компонента из DOM?": "{\"text\":\"componentWillUnmount()\",\"correct\":true}",
+      "Какой компонент React используется для вывода текста?": "{\"text\":\"<p>\",\"correct\":false}",
+      "Какой метод используется для обработки событий в React?": "{\"text\":\"this.event()\",\"correct\":false}",
+      "Что такое хуки (Hooks) в React?": "{\"text\":\"Функции, позволяющие использовать состояние и другие возможности React в функциональных компонентах\",\"correct\":true}",
+      "Какой метод React-компонента вызывается при обновлении его состояния или props?": "{\"text\":\"componentDidUpdate()\",\"correct\":true}",
+      "Какой метод используется для создания списка элементов в React?": "{\"text\":\"map()\",\"correct\":true}",
+      "Что такое Virtual DOM в React?": "{\"text\":\"Виртуальное представление реального DOM, используемое для оптимизации обновлений\",\"correct\":true}",
+      "Что такое JSX в React?": "{\"text\":\"Синтаксическое расширение JavaScript для описания структуры пользовательских интерфейсов\",\"correct\":true}",
+      "Что такое пропсы (props) в React?": "{\"text\":\"Специальный атрибут, позволяющий передавать данные в компонент\",\"correct\":true}",
+      "Какой хук используется для добавления состояния в функциональные компоненты в React?": "{\"text\":\"useState()\",\"correct\":true}",
+      "Что такое React?": "{\"text\":\"JavaScript-библиотека для создания пользовательских интерфейсов\",\"correct\":true}",
+      "Что такое state в React?": "{\"text\":\"Объект, содержащий информацию о текущем состоянии компонента\",\"correct\":true}",
+      "point": 16,
+      "category": "React",
+      "id": 8
+    }
+  ]
+}

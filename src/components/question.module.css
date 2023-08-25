@@ -1,0 +1,39 @@
+.questionContainer {
+  margin-bottom: 20px;
+}
+
+.optionsList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.optionItem {
+  margin-top: 10px;
+}
+
+.optionLabel {
+  cursor: pointer;
+}
+
+.radioInput {
+  margin-right: 5px;
+}
+
+
+
+
+.radioInput[type="radio"]:disabled {
+  -webkit-appearance: none;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  padding: 0px;
+  background-clip: content-box;
+  border: 2px solid #bbbbbb;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.radioInput[type="radio"]:checked {
+  background-color: blue;
+}
